@@ -3229,3 +3229,361 @@ ol {
 .footer .copyright .copyright-text a:hover {
   color: #FF5E35;
 }
+
+
+/*======================================
+    Events Schedule CSS
+========================================*/
+.events-schedule {
+  background-color: #F4F7FA;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-schedule .section-title {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .events-schedule .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+.events-schedule .details-button {
+  margin-top: 80px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events-schedule .details-button {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .events-schedule .details-button {
+    margin-top: 40px;
+  }
+}
+
+.events-schedule .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .nav {
+    display: block;
+    width: 100%;
+  }
+}
+
+.events-schedule .nav .nav-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .nav .nav-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.events-schedule .nav .nav-item:last-child {
+  margin: 0;
+}
+
+.events-schedule .nav .nav-item .nav-link {
+  padding: 16px;
+  color: #2f1631;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .nav .nav-item .nav-link {
+    display: block;
+    width: 100%;
+  }
+}
+
+.events-schedule .nav .nav-item .nav-link::before {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  content: "";
+  border: 10px solid #ee5f3c;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.events-schedule .nav .nav-item .nav-link.active::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.events-schedule .nav .nav-item .nav-link:hover {
+  background-color: #ed5f3c;
+  color: #fff;
+}
+
+.events-schedule .nav .nav-item .nav-link:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.events-schedule .nav .nav-item .nav-link:hover span {
+  color: #fff;
+}
+
+.events-schedule .nav .nav-item .nav-link.active {
+  background-color: #ed5f3c;
+  color: #fff;
+}
+
+.events-schedule .nav .nav-item .nav-link.active span {
+  color: #fff;
+}
+
+.events-schedule .nav .nav-item .nav-link span {
+  font-size: 14px;
+  display: block;
+  margin-top: 2px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.events-schedule .single-event {
+  padding: 30px 30px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-top: 25px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-left: 4px solid transparent;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082);
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event {
+    text-align: center;
+    display: block;
+  }
+}
+
+.events-schedule .single-event:hover {
+  border-left-color: #ed5f3c;
+}
+
+.events-schedule .single-event .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event .date {
+    text-align: center;
+    display: block;
+  }
+}
+
+.events-schedule .single-event .date h2 {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event .date h2 {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+
+.events-schedule .single-event .date p {
+  display: inline-block;
+  color: #101130;
+  font-weight: 500;
+}
+
+.events-schedule .single-event .date p span {
+  display: block;
+  color: #727272;
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.events-schedule .single-event .event-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event .event-info {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+.events-schedule .single-event .event-info .image {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event .event-info .image {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.events-schedule .single-event .event-info .image img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.events-schedule .single-event .event-info .info h4 a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #101130;
+}
+
+.events-schedule .single-event .event-info .info h4 a:hover {
+  color: #F20487;
+}
+
+.events-schedule .single-event .event-info .info ul {
+  margin-top: 5px;
+}
+
+.events-schedule .single-event .event-info .info ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.events-schedule .single-event .event-info .info ul li a {
+  font-size: 13px;
+  color: #727272;
+  font-weight: 400;
+}
+
+.events-schedule .single-event .event-info .info ul li a:hover {
+  color: #F20487;
+}
+
+.events-schedule .single-event .event-info .info ul li i {
+  color: #F20487;
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.events-schedule .single-event .event-info .info ul li:last-child {
+  margin: 0;
+}
+
+.events-schedule .single-event .button {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .events-schedule .single-event .button {
+    margin-top: 20px;
+    float: none;
+    text-align: center !important;
+  }
+}
+
+/*=============================
+	Sponsors CSS
+===============================*/
+.sponsors {
+  text-align: center;
+}
+
+.sponsors .section-title {
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sponsors .section-title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sponsors .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+.sponsors .single-sponsor {
+  padding: 20px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.103);
+          box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.103);
+  border: 1px solid #eee;
+  margin: 12px 10px;
+  line-height: 50px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: #fff;
+}
+
+.sponsors .single-sponsor:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sponsors .single-sponsor img {
+  width: 150px;
+}
