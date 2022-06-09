@@ -112,7 +112,7 @@
                     <div class="box-head">
                         <div class="box-content">
                             <div class="box">
-                                <h1 id="days">100</h1>
+                                <h1 id="days">00</h1>
                                 <h2 id="daystxt">Days</h2>
                             </div>
                             <div class="box">
@@ -283,7 +283,7 @@
                 </div>
 				<div class="col text-center">
 					<div class="button" > 
-						<a href="prog.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px; color:#330136; margin-top:50px"> En voir + </a>
+						<a href="musique.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px; color:#330136; margin-top:50px"> En voir + </a>
 						
 					</div>
                 </div>
@@ -679,7 +679,7 @@ YWILL nous livre un rap empreint d'un parcours riche en texte et en rencontre. D
             let minutes = Math.floor(diff % (1000 * 60 * 60) / (1000 * 60));
             let seconds = Math.floor(diff % (1000 * 60) / 1000);
 
-            days <= 99 ? days = `0${days}` : days;
+            days <= 9 ? days = `0${days}` : days;
             days <= 9 ? days = `00${days}` : days;
             hours <= 9 ? hours = `0${hours}` : hours;
             minutes <= 9 ? minutes = `0${minutes}` : minutes;
