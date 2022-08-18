@@ -1,0 +1,22 @@
+nav a:hover{
+	display: block;
+}	
+
+
+.dropdown .dropdown-menu .dropdown-item
+{
+
+  transition: all 0.5s;
+  overflow: hidden;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block;
+  margin-top: 18px;
+  border: 0px solid transparent;
+  background-color: #8038c5;
+}
+
+nav-item .dropdown
+{
+  content:"▼";
+  }
