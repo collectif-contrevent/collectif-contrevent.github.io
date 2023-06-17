@@ -40,7 +40,7 @@
     <!-- /End Preloader -->
 
     <!-- Start Header Area -->
-    <header class="header navbar-area">
+    <header class="header navbar-area-web">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -74,8 +74,8 @@
                                 </ul>
                             </div>
 							<!-- navbar collapse -->
-                            <div class="button">
-                                <a href="campagnededons.html" class="btn">Nous soutenir<i class="lni lni-ticket"></i></a>
+                            <div class="button-bar">
+                                <a href="campagnededons.html" class="btn-bar">Billetterie After <i class="lni lni-ticket"></i></a>
                             </div>
                         </nav>
                         <!-- End Navbar -->
@@ -87,7 +87,7 @@
     <!-- End Header Area -->
 
     <!-- Start Hero Area -->
-    <section class="hero-area">
+    <section class="web-area">
         <div class="main__circle"></div>
         <div class="main__circle2"></div>
         <div class="main__circle3"></div>
@@ -95,12 +95,11 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
-                    <div class="hero-content">
-                        <h5 class="wow zoomIn" data-wow-delay=".2s"><i class="lni lni-map-marker" href="https://www.google.com/maps/d/edit?mid=10N1CZljYT75jiW_ddDyW5Qhc3rmthVY&usp=sharing" ></i> Parc des Aubépines, Faches-Thumesnil </h5> 
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Les vents contraires</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Un événement culturel, social et solidaire.</p>
+                    <div class="web-content">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Les Vents Bar Bars </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">2 collectifs, 10 bars, +15 artistes</p>
                         <div class="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="campagnededons.html" class="btn">Nous soutenir  <i class="lni lni-ticket"></i></a>
+                            <iframe id="haWidget" allowtransparency="true" src="https://www.helloasso.com/associations/le-collectif-du-contrevent/evenements/after-des-vents-bar-bars-a-la-brat-cave/widget-bouton" style="width: 100%; height: 70px; border: none;"></iframe>
                         </div>
                     </div>
                 </div>
@@ -108,116 +107,140 @@
         </div>
     </section>
     <!-- End Hero Area -->
-	<!-- Start Count Down Area -->
-    <div class="count-down">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="box-head">
-                        <div class="box-content">
-                            <div class="box">
-                                <h1 id="days">00</h1>
-                                <h2 id="daystxt">Days</h2>
-                            </div>
-                            <div class="box">
-                                <h1 id="hours">00</h1>
-                                <h2 id="hourstxt">Hours</h2>
-                            </div>
-                            <div class="box">
-                                <h1 id="minutes">00</h1>
-                                <h2 id="minutestxt">Minutes</h2>
-                            </div>
-                            <div class="box">
-                                <h1 id="seconds">00</h1>
-                                <h2 id="secondstxt">Secondes</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Count Down Area -->
+	
     <!-- Start Features Area -->
     <section class="features section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Les Vents Contraires</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Qu'est-ce que c'est ?</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Venez découvrir un festival eco-responsable, accessible à tous et qui promeut la culture locale ! Tels sont les objectifs de notre première édition qui se déroulera les 15 et 16 septembre 2023.</p>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"> Le warm up du festival </h2>
+                    </div>
+					<p>
+	
+                        Afin de satisfaire les festivaliers impatients de découvrir le line-up des Vents Contraires 2023 et de réserver leurs places sur la billetterie en ligne, les Vents Bar-Bars proposeront un avant-goût du festival dans une dizaine de lieux adhérents Culture Bar-Bars !<br>
+                        Dans chacun des lieux participants, venez rencontrer les équipes du festival et profitez d’un évènement culturel : concerts, DJ sets, mais aussi stand-up, théâtre d’impro, yoga bière, apéro contes... Il y en aura pour tous les goûts et tous les quartiers lillois !<br>
+                        Cet évènement se terminera à la Brat Cave en soirée Techno/Acid/Indus la deuxième partie de la nuit, avec des invités, pour le moment, secrets.<br>
+<br> <br>
+					</p>
+                </div>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LaGer2y-azyuZLy9Sj1pDxSDBUvHT5A&ehbc=2E312F" width="640" height="480"></iframe>
+            </div>
+			<div class="row">
+                
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s"><br>La programmation des Vents Bar Bars</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">2 collectifs, 10 bars, +15 artistes</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-               
-                    <!-- Start Single Feature -->
-				<div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
+                <div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
                     <!-- Start Single Feature -->
                     <div class="single-featuer">
-                        <img class="shape" src="assets/images/features/shape.svg" alt="#">
-                        <img class="shape2" src="assets/images/features/shape2.svg" alt="#">
-                        <span class="serial"></span>
-                        <div class="service-icon">
-                            <i class="lni lni-users"></i>
-                        </div>
-                        <h3>Organisateurs</h3>
-                        <p>Le festival a été créé par : Le collectif du contrevent. Venez découvrir l'origine du projet !</p>
-						<div class="button"> 
-									<a href="about-us.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px"> QUI SOMMES-NOUS ? </a>
-                        </div>
+                        <h2>Le Musical</h2>
+                        <h3>Fives-59, rue de flers </h3>
+                        <h4>18h</h4>
+                        <p>Brasserie Bellenaert X Les Des Capsules  <br> (TTO et Jeux de société) <br> </p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-				<div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-featuer">
-                        <img class="shape" src="assets/images/features/shape.svg" alt="#">
-                        <img class="shape2" src="assets/images/features/shape2.svg" alt="#">
-                        <span class="serial"></span>
-                        <div class="service-icon">
-                            <i class="lni lni-music"></i>
-                        </div>
-                        <h3>Festival de musique</h3>
-                        <p>Avec deux scènes et plus de 15 artistes de tous les horizons : le week-end sera musical !</p>
-						<div class="button"> 
-							<a href="musique.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px"> EN SAVOIR + </a>
-                        </div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
                     <!-- Start Single Feature -->
                     <div class="single-featuer">
-                        <img class="shape" src="assets/images/features/shape.svg" alt="#">
-                        <img class="shape2" src="assets/images/features/shape2.svg" alt="#">
-                        <span class="serial"></span>
-                        <div class="service-icon">
-                            <i class="lni lni-leaf"></i>
-                        </div>
-                        <h3>Village Découverte</h3>
-                        <p>Des ateliers-découverte sur des thématiques variées, de l'art de rue, des spectacles ...</p>
-						<div class="button"> 
-									<a href="village.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px"> EN SAVOIR + </a>
-                        </div>
+                        <h2>Le Bus Magique</h2>
+                        <h3>Vauban - avenue Cuvier </h3>
+                        <h4>20h</h4>
+                        <p>La Brique Du Nord <br> (Théâtre d'impro) <br> </p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                
-            </div>
-        </div>
-	</section>
-	 <!-- /End Features Area -->
-	<section class="features section" style="background-color:#330136; padding-top: 10px; padding-bottom: 10px; vertical-align : center">
-        <div class="col-12" >
-            <div class="section-title" style="color:white">
-               <p class="wow fadeInUp" data-wow-delay=".6s" style="padding-top:30px; padding-bottom:0px">A l’échelle de l’ensemble du festival, l’objectif transversal sera, en accord avec ses valeurs, de <b>minimiser son impact environnemental</b> et sensibiliser les participants à cette cause. </p>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>Le Café Citoyen</h2>
+                        <h3>Centre - 7 pl du Vieux Marcjé aux Chevaux </h3>
+                        <h4>19h30</h4>
+                        <p>François Griffault <br> (Apéro contes) <br> </p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>La Moulinette</h2>
+                        <h3>Moulins - 105, bld Victor Hugo </h3>
+                        <h4>20h30</h4>
+                        <p>Minorstrings <br> (Concert jazz manouche) <br> </p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>Le Cirque</h2>
+                        <h3>Wazemmes - 139, rue des Postes </h3>
+                        <h4>20h</h4>
+                        <p>Jzel & Kaliug Citizen <br> (DJ set électro/techno) <br> </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                     <!-- Start Single Feature -->
+                     <div class="single-featuer">
+                        <h2>Le Tok Ici</h2>
+                        <h3>Bois Blancs - 173, rue des Bois Blancs </h3>
+                        <h4>18h & 20h30</h4>
+                        <p>Emma & Anax <br> (beer yoga & Chanson engagée et électro) <br> </p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>Le Charlatan</h2>
+                        <h3>JB Lebas - 4; bld Victor Hugo </h3>
+                        <h4>20h</h4>
+                        <p>Bla <br> (Piano voix jazz & groovy) <br> </p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>Le Lyautey</h2>
+                        <h3>Moulins, 12, rue de Wazemmes </h3>
+                        <h4>19h</h4>
+                        <p>D3sty Nova <br> (DJ set hip hop) <br> </p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>Les Sarrazins</h2>
+                        <h3>Wazemmes - 52/54, rue des Sarrazins </h3>
+                        <h4>20h</h4>
+                        <p>Waz Comedy Club <br> (Stand up) <br> </p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
+                    <!-- Start Single Feature -->
+                    <div class="single-featuer">
+                        <h2>La P'tite Place</h2>
+                        <h3>Wazemmes - 110, rue des Sarrazins </h3>
+                        <h4>19h & 20h30</h4>
+                        <p>Emma & Fanfarena 21 <br> (Beer yoga & Fanfare punk rock) <br> </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- /End Features Area -->
 
-	<section class="features section">
+	<section class="features section" style="background-color:#0f475e; padding-top: 10px; padding-bottom: 10px; vertical-align : center">
+        <div class="col-12" >
+            <div class="section-title" style="color:white">
+               <p class="wow fadeInUp" data-wow-delay=".6s" style="padding-top:30px; padding-bottom:0px"> N'hésitez pas à prendre vos pre-ventes dès maintenant. </p>
+            </div>
+        </div>
+    </section>
+    <!-- /End Features Area -->
+
+	<!--<section class="features section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -227,7 +250,7 @@
                         <p class="wow fadeInUp" data-wow-delay=".6s">Programmation à venir</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--<div class="row">
                 <div class="col-lg-3 col-md-3 col-12 wow fadeInUp" data-wow-delay=".2s">
                     <!-- Start Single Feature -->
@@ -292,11 +315,11 @@
 					</div>
                 </div>
             </div>-->
-        </div>
-    </section>
+       <!-- </div>
+    </section>-->
 
 
-<div class="modal fade" id="artiste1" tabindex="-1" aria-hidden="true">
+<!--<div class="modal fade" id="artiste1" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -368,8 +391,8 @@ C'est parti pour du Rock N Roll survolté ! Le plus français des groupes de Roc
       </div>
       <div class="modal-body">
 Simony ne rappe pas pour passer le temps. Pas de postures outrancières, mais du charisme, du bagou et de la fougue. Fastueux dans ses attentions, percutant dans ses exécutions. Simony, c’est un uppercut influencé par « l’âge d’or » du rap français, allié à des prods organiques et tranchantes. Si on devait l’affilier, Simony est dans la fière lignée d’NTM, de Nekfeu, ou d’un Vald qui s’acoquinerait à Justice. <br>
-----> Annulé pour raison médicales
-<br>
+----> 
+<!--<br>
 <a href="https://www.facebook.com/SIMONYmusique" target="blank"<i class="lni lni-facebook"></i>
 </a> <a href="https://www.instagram.com/simonymusique/" target="blank"<i class="lni lni-instagram"></i> </a> 
 <a href="https://soundcloud.com/simonyofficial" target="blank" <i class="lni lni-soundcloud-original"></i> </a>
@@ -485,9 +508,9 @@ YWILL nous livre un rap empreint d'un parcours riche en textes et en rencontres.
       </div>
     </div>
   </div>
-</div>   
+</div>   -->
     <!-- Start Call Action Area -->
-    <section class="call-action overlay">
+    <!--<section class="call-action overlay">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
@@ -505,9 +528,9 @@ YWILL nous livre un rap empreint d'un parcours riche en textes et en rencontres.
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- End Call Action Area -->
-	<section style="background-color:#301532">
+	<section style="background-color:#023e57">
 	 <div class="row justify-content-center">
         <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
 		<a href="https://www.lillemetropole.fr/"> <img src="assets/images/partenaires/partenaire-01.png" alt="MEL" style="height:4em;"></a>
@@ -627,7 +650,7 @@ YWILL nous livre un rap empreint d'un parcours riche en textes et en rencontres.
     <!--/ End Footer Area -->
 
     <!-- ========================= scroll-top ========================= -->
-    <a href="#" class="scroll-top">
+    <a href="#" class="scroll-top-bar">
         <i class="lni lni-chevron-up"></i>
     </a>
 
