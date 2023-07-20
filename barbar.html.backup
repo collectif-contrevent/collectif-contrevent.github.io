@@ -75,7 +75,7 @@
                             </div>
 							<!-- navbar collapse -->
                             <div class="button-bar">
-                                <a href="campagnededons.html" class="btn-bar">Billetterie After <i class="lni lni-ticket"></i></a>
+                                <a href="billetterie.html" class="btn-bar">Billetterie After <i class="lni lni-ticket"></i></a>
                             </div>
                         </nav>
                         <!-- End Navbar -->
@@ -310,7 +310,7 @@
                 </div>
 				<div class="col text-center">
 					<div class="button" > 
-						<a href="musique.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px; color:#330136; margin-top:50px"> En voir + </a>
+						<a href="musique.html" style="border:solid 1px; border-radius:20px; line-height:40px; padding: 0 30px; color:#013F58; margin-top:50px"> En voir + </a>
 						
 					</div>
                 </div>
