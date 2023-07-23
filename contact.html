@@ -39,7 +39,7 @@
     </div>
     <!-- /End Preloader -->
 
-   <!-- Start Header Area -->
+    <!-- Start Header Area -->
     <header class="header navbar-area">
         <div class="container">
             <div class="row align-items-center">
@@ -62,7 +62,10 @@
                                     <li class="nav-item">
                                         <a href="event.html" aria-label="Toggle navigation">Evénement</a>
                                     </li>
-									<li class="nav-item">
+                                    <li class="nav-item">
+                                        <a href="musique.html" aria-label="Toggle navigation">Programmation</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a href="infos.html" aria-label="Toggle navigation">Infos pratiques</a>
                                     </li>
                                     <li class="nav-item">
@@ -107,135 +110,151 @@
                     <div class="section-title">
                         <h3 class="wow zoomIn" data-wow-delay=".2s">Contact</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">Formulaire de contact</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Vous avez une question, un problème ? N'hésitez pas à nous contacter !</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Vous avez une question, un problème ? N'hésitez pas
+                            à nous contacter !</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12 wow fadeInUp" data-wow-delay=".2s">
-				<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzbodbjg" method="post">
-					<fieldset id="fs-frm-inputs">
-						<label for="full-name">Qui êtes vous ?</label>
-							<input type="text" name="name" id="full-name" placeholder="Nom et Prénom" required="">
-						<label for="email-address">Adresse Email</label>
-							<input type="email" name="_replyto" id="email-address" placeholder="exemple@gmail.com" required="">
-						<label for="message">Message</label>
-							<textarea rows="5" name="message" id="message" placeholder="N'hésitez pas à nous contacter" required=""></textarea>
-							<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-					</fieldset>
-						
-						<input type="submit" value="Envoyer">
-				</form><style>/* reset */
-					#fs-frm input,
-					#fs-frm select,
-					#fs-frm textarea,
-					#fs-frm fieldset,
-					#fs-frm optgroup,
-					#fs-frm label,
-					#fs-frm #card-element:disabled {
-					  font-family: inherit;
-					  font-size: 100%;
-					  color: inherit;
-					  border: none;
-					  border-radius: 0;
-					  display: block;
-					  width: 100%;
-					  padding: 0;
-					  margin: 0;
-					  -webkit-appearance: none;
-					  -moz-appearance: none;
-					}
-					#fs-frm label,
-					#fs-frm legend,
-					#fs-frm ::placeholder {
-					  font-size: .825rem;
-					  margin-bottom: .5rem;
-					  padding-top: .2rem;
-					  display: flex;
-					  align-items: baseline;
-					}
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                        action="https://formspree.io/f/mzbodbjg" method="post">
+                        <fieldset id="fs-frm-inputs">
+                            <label for="full-name">Qui êtes vous ?</label>
+                            <input type="text" name="name" id="full-name" placeholder="Nom et Prénom" required="">
+                            <label for="email-address">Adresse Email</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="exemple@gmail.com"
+                                required="">
+                            <label for="message">Message</label>
+                            <textarea rows="5" name="message" id="message" placeholder="N'hésitez pas à nous contacter"
+                                required=""></textarea>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        </fieldset>
 
-					/* border, padding, margin, width */
-					#fs-frm input,
-					#fs-frm select,
-					#fs-frm textarea,
-					#fs-frm #card-element {
-					  border: 1px solid rgba(0,0,0,0.2);
-					  background-color: rgba(255,255,255,0.9);
-					  padding: .75em 1rem;
-					  margin-bottom: 1.5rem;
-					}
-					#fs-frm input:focus,
-					#fs-frm select:focus,
-					#fs-frm textarea:focus {
-					  background-color: white;
-					  outline-style: solid;
-					  outline-width: thin;
-					  outline-color: gray;
-					  outline-offset: -1px;
-					}
-					#fs-frm [type="text"],
-					#fs-frm [type="email"] {
-					  width: 100%;
-					}
-					#fs-frm [type="button"],
-					#fs-frm [type="submit"],
-					#fs-frm [type="reset"] {
-					  width: auto;
-					  cursor: pointer;
-					  -webkit-appearance: button;
-					  -moz-appearance: button;
-					  appearance: button;
-					}
-					#fs-frm [type="button"]:focus,
-					#fs-frm [type="submit"]:focus,
-					#fs-frm [type="reset"]:focus {
-					  outline: none;
-					}
-					#fs-frm [type="submit"],
-					#fs-frm [type="reset"] {
-					  margin-bottom: 0;
-					}
-					#fs-frm select {
-					  text-transform: none;
-					}
+                        <input type="submit" value="Envoyer">
+                    </form>
+                    <style>
+                        /* reset */
+                        #fs-frm input,
+                        #fs-frm select,
+                        #fs-frm textarea,
+                        #fs-frm fieldset,
+                        #fs-frm optgroup,
+                        #fs-frm label,
+                        #fs-frm #card-element:disabled {
+                            font-family: inherit;
+                            font-size: 100%;
+                            color: inherit;
+                            border: none;
+                            border-radius: 0;
+                            display: block;
+                            width: 100%;
+                            padding: 0;
+                            margin: 0;
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                        }
 
-					#fs-frm [type="checkbox"] {
-					  -webkit-appearance: checkbox;
-					  -moz-appearance: checkbox;
-					  appearance: checkbox;
-					  display: inline-block;
-					  width: auto;
-					  margin: 0 .5em 0 0 !important;
-					}
+                        #fs-frm label,
+                        #fs-frm legend,
+                        #fs-frm ::placeholder {
+                            font-size: .825rem;
+                            margin-bottom: .5rem;
+                            padding-top: .2rem;
+                            display: flex;
+                            align-items: baseline;
+                        }
 
-					#fs-frm [type="radio"] {
-					  -webkit-appearance: radio;
-					  -moz-appearance: radio;
-					  appearance: radio;
-					}
+                        /* border, padding, margin, width */
+                        #fs-frm input,
+                        #fs-frm select,
+                        #fs-frm textarea,
+                        #fs-frm #card-element {
+                            border: 1px solid rgba(0, 0, 0, 0.2);
+                            background-color: rgba(255, 255, 255, 0.9);
+                            padding: .75em 1rem;
+                            margin-bottom: 1.5rem;
+                        }
 
-					/* address, locale */
-					#fs-frm fieldset.locale input[name="city"],
-					#fs-frm fieldset.locale select[name="state"],
-					#fs-frm fieldset.locale input[name="postal-code"] {
-					  display: inline;
-					}
-					#fs-frm fieldset.locale input[name="city"] {
-					  width: 52%;
-					}
-					#fs-frm fieldset.locale select[name="state"],
-					#fs-frm fieldset.locale input[name="postal-code"] {
-					  width: 20%;
-					}
-					#fs-frm fieldset.locale input[name="city"],
-					#fs-frm fieldset.locale select[name="state"] {
-					  margin-right: 3%;
-					}
-					</style>
-				
+                        #fs-frm input:focus,
+                        #fs-frm select:focus,
+                        #fs-frm textarea:focus {
+                            background-color: white;
+                            outline-style: solid;
+                            outline-width: thin;
+                            outline-color: gray;
+                            outline-offset: -1px;
+                        }
+
+                        #fs-frm [type="text"],
+                        #fs-frm [type="email"] {
+                            width: 100%;
+                        }
+
+                        #fs-frm [type="button"],
+                        #fs-frm [type="submit"],
+                        #fs-frm [type="reset"] {
+                            width: auto;
+                            cursor: pointer;
+                            -webkit-appearance: button;
+                            -moz-appearance: button;
+                            appearance: button;
+                        }
+
+                        #fs-frm [type="button"]:focus,
+                        #fs-frm [type="submit"]:focus,
+                        #fs-frm [type="reset"]:focus {
+                            outline: none;
+                        }
+
+                        #fs-frm [type="submit"],
+                        #fs-frm [type="reset"] {
+                            margin-bottom: 0;
+                        }
+
+                        #fs-frm select {
+                            text-transform: none;
+                        }
+
+                        #fs-frm [type="checkbox"] {
+                            -webkit-appearance: checkbox;
+                            -moz-appearance: checkbox;
+                            appearance: checkbox;
+                            display: inline-block;
+                            width: auto;
+                            margin: 0 .5em 0 0 !important;
+                        }
+
+                        #fs-frm [type="radio"] {
+                            -webkit-appearance: radio;
+                            -moz-appearance: radio;
+                            appearance: radio;
+                        }
+
+                        /* address, locale */
+                        #fs-frm fieldset.locale input[name="city"],
+                        #fs-frm fieldset.locale select[name="state"],
+                        #fs-frm fieldset.locale input[name="postal-code"] {
+                            display: inline;
+                        }
+
+                        #fs-frm fieldset.locale input[name="city"] {
+                            width: 52%;
+                        }
+
+                        #fs-frm fieldset.locale select[name="state"],
+                        #fs-frm fieldset.locale input[name="postal-code"] {
+                            width: 20%;
+                        }
+
+                        #fs-frm fieldset.locale input[name="city"],
+                        #fs-frm fieldset.locale select[name="state"] {
+                            margin-right: 3%;
+                        }
+                    </style>
+
                     <!-- Start Single Feature -->
-                    
+
     </section>
     <!-- /End Features Area -->
 
@@ -262,34 +281,43 @@
     <!-- End Call Action Area -->
 
     <!-- End Call Action Area -->
-<section style="background-color:#013F58">
-	 <div class="row justify-content-center">
-        <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.lillemetropole.fr/"> <img src="assets/images/partenaires/partenaire-01.png" alt="MEL" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.ville-fachesthumesnil.fr/"> <img src="assets/images/partenaires/partenaire-02.png" alt="Faches" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.ville-fachesthumesnil.fr/Ecologie-cadre-de-vie/Urgences-Ecologiques"> <img src="assets/images/partenaires/partenaire-03.png" alt="Urgence ecologie" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.cora.fr/magasins/wattignies-m-150"> <img src="assets/images/partenaires/partenaire-04.png" alt="Cora" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.bricodepot.fr/catalogue/depot/faches-thumesnil/1782/"> <img src="assets/images/partenaires/partenaire-05.png" alt="Brico Dépot" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.weo.fr/"> <img src="assets/images/partenaires/partenaire-06.png" alt="Weo" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.associations.gouv.fr/FDVA.html"> <img src="assets/images/partenaires/partenaire-07.png" alt="FDVA" style="height:4em;"></a>
-		</div>
-		<div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-		<a href="https://www.sopro59.net/"> <img src="assets/images/partenaires/partenaire-08.png" alt="SOPRO" style="height:4em;"></a>
-		</div>
-	</div>
-	</section>
+    <section style="background-color:#013F58">
+        <div class="row justify-content-center">
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.lillemetropole.fr/"> <img src="assets/images/partenaires/partenaire-01.png"
+                        alt="MEL" style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.ville-fachesthumesnil.fr/"> <img src="assets/images/partenaires/partenaire-02.png"
+                        alt="Faches" style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.ville-fachesthumesnil.fr/Ecologie-cadre-de-vie/Urgences-Ecologiques"> <img
+                        src="assets/images/partenaires/partenaire-03.png" alt="Urgence ecologie"
+                        style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.cora.fr/magasins/wattignies-m-150"> <img
+                        src="assets/images/partenaires/partenaire-04.png" alt="Cora" style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.bricodepot.fr/catalogue/depot/faches-thumesnil/1782/"> <img
+                        src="assets/images/partenaires/partenaire-05.png" alt="Brico Dépot" style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.weo.fr/"> <img src="assets/images/partenaires/partenaire-06.png" alt="Weo"
+                        style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.associations.gouv.fr/FDVA.html"> <img
+                        src="assets/images/partenaires/partenaire-07.png" alt="FDVA" style="height:4em;"></a>
+            </div>
+            <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
+                <a href="https://www.sopro59.net/"> <img src="assets/images/partenaires/partenaire-08.png" alt="SOPRO"
+                        style="height:4em;"></a>
+            </div>
+        </div>
+    </section>
     <!-- Start Footer Area -->
     <footer class="footer">
         <!-- Start Footer Top -->
@@ -305,32 +333,36 @@
                                         <img src="assets/images/logo/dark-logo.svg" alt="#">
                                     </a>
                                 </div>
-                                <p>Un événement culturel, social et solidaire.<br> 15 et 16 septembre au parc des Aubépines, Faches-Thumesnil</p>
+                                <p>Un événement culturel, social et solidaire.<br> 15 et 16 septembre au parc des
+                                    Aubépines, Faches-Thumesnil</p>
                                 <span class="social-title">
                                     Retrouvez-nous-nous sur :
                                 </span>
                                 <ul class="social">
                                     <li>
-                                        <a href="https://www.facebook.com/Festivaldesventscontraires"><i class="lni lni-facebook-filled"></i></a>
+                                        <a href="https://www.facebook.com/Festivaldesventscontraires"><i
+                                                class="lni lni-facebook-filled"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/festivaldesventscontraires/"><i class="lni lni-instagram-filled"></i></a>
+                                        <a href="https://www.instagram.com/festivaldesventscontraires/"><i
+                                                class="lni lni-instagram-filled"></i></a>
                                     </li>
-									<li>
-                                        <a href="https://www.helloasso.com/associations/le-collectif-du-contrevent"> <img src="assets/images/logo/hello-asso-01.svg"></img></a>
+                                    <li>
+                                        <a href="https://www.helloasso.com/associations/le-collectif-du-contrevent">
+                                            <img src="assets/images/logo/hello-asso-01.svg"></img></a>
                                     </li>
-									
+
                                 </ul>
-	
+
                             </div>
                             <!-- End Single Widget -->
                         </div>
-						<div class="col-lg-3 col-md-3 col-12 align-right">
+                        <div class="col-lg-3 col-md-3 col-12 align-right">
                             <!-- Single Widget -->
                             <div class="single-footer f-link">
                                 <h3>Evénement</h3>
                                 <ul>
-									<li><a href="event.html">Les Vents Contraires 2023</a></li>
+                                    <li><a href="event.html">Les Vents Contraires 2023</a></li>
                                     <li><a href="musique.html">Festival de musique</a></li>
                                     <li><a href="village.html">Village Découverte</a></li>
                                 </ul>
@@ -343,14 +375,16 @@
                                 <h3>Association</h3>
                                 <ul>
                                     <li><a href="about-us.html">Qui sommes-nous ?</a></li>
-									<li><a href="https://www.helloasso.com/associations/le-collectif-du-contrevent/formulaires/3">Faire un don</a></li>
+                                    <li><a
+                                            href="https://www.helloasso.com/associations/le-collectif-du-contrevent/formulaires/3">Faire
+                                            un don</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End Single Widget -->
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -363,14 +397,14 @@
                 <div class="inner-content">
                     <div class="row">
                         <div class="col-12">
-							 <p class="copyright-text">This template was made by <a href="https://graygrids.com/"
+                            <p class="copyright-text">This template was made by <a href="https://graygrids.com/"
                                     rel="nofollow" target="_blank">GrayGrids</a>
                             </p>
-                            <p class="copyright-text">Website designed by <a href="https://mariew.fr/"
-                                    rel="nofollow" target="_blank">Marie W. Graphisme</a>
+                            <p class="copyright-text">Website designed by <a href="https://mariew.fr/" rel="nofollow"
+                                    target="_blank">Marie W. Graphisme</a>
                             </p>
-							<p class="copyright-text"> <a href="mentions.html"
-                                    rel="nofollow" target="_blank">Mentions légales</a>
+                            <p class="copyright-text"> <a href="mentions.html" rel="nofollow" target="_blank">Mentions
+                                    légales</a>
                             </p>
                         </div>
                     </div>
