@@ -3880,3 +3880,9 @@ ol {
 .sponsors .single-sponsor img {
   width: 150px;
 }
+
+@media (max-width: 767px) {
+  .last-three {
+      margin-top: 20px;
+  }
+}
