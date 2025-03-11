@@ -117,14 +117,23 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12 wow fadeInUp" data-wow-delay=".2s">
-                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-                        action="https://formspree.io/f/mzbodbjg" method="post">
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="assets/mail/mail.php"
+                        method="post">
                         <fieldset id="fs-frm-inputs">
-                            <label for="full-name">Qui êtes vous ?</label>
-                            <input type="text" name="name" id="full-name" placeholder="Nom et Prénom" required="">
+                            <label for="mailTo">Qui êtes-vous?</label>
+                            <select required name="mailTo" id="mailTo">
+                                <option value="" disabled selected="selected">Choisir</option>
+                                <option value="programmation@collectif-contrevent.fr">Artistes</option>
+                                <option value="contact@collectif-contrevent.fr">Autre</option>
+                            </select>
+                            <label for="full-name">Votre nom ?</label>
+                            <input type="text" name="name" id="name" placeholder="Nom" required="">
                             <label for="email-address">Adresse Email</label>
-                            <input type="email" name="_replyto" id="email-address" placeholder="exemple@gmail.com"
-                                required="">
+                            <input type="text" name="emailContact" id="emailContact"
+                                placeholder="exemple@gmail.com" required="">
+                            <label for="telephone">Téléphone</label>
+                            <input type="text" name="phone" id="phone"
+                                placeholder="0688302814" required="">
                             <label for="message">Message</label>
                             <textarea rows="5" name="message" id="message" placeholder="N'hésitez pas à nous contacter"
                                 required=""></textarea>
@@ -153,6 +162,7 @@
                             margin: 0;
                             -webkit-appearance: none;
                             -moz-appearance: none;
+                            appearance: none;
                         }
 
                         #fs-frm label,
@@ -214,6 +224,10 @@
 
                         #fs-frm select {
                             text-transform: none;
+                        }
+
+                        #fs-frm select:invalid {
+                            color: gray;
                         }
 
                         #fs-frm [type="checkbox"] {
@@ -292,22 +306,24 @@
                         alt="Faches" style="height:4em;"></a>
             </div>
             <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-                <a href="https://www.bellenaert.beer/"> <img
-                        src="assets/images/partenaires/Logo_Bellenaert.png" alt="Brasserie Bellenaert"
-                        style="height:3em;"></a>
+                <a href="https://www.bellenaert.beer/"> <img src="assets/images/partenaires/Logo_Bellenaert.png"
+                        alt="Brasserie Bellenaert" style="height:3em;"></a>
             </div>
             <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
                 <a href="https://www.bar-bars.com/"> <img
-                        src="assets/images/partenaires/Logo_Collectif_Culture_Bar_Bars.png" alt="Culture BarsBars" style="height:3em;" class="last-three"></a>
+                        src="assets/images/partenaires/Logo_Collectif_Culture_Bar_Bars.png" alt="Culture BarsBars"
+                        style="height:3em;" class="last-three"></a>
             </div>
             <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
                 <a href="https://www.facebook.com/profile.php?id=100028118245035"> <img
-                        src="assets/images/partenaires/Logo_Sono.png" alt="La Sono Lille" style="height:2em;" class="last-three"></a>
+                        src="assets/images/partenaires/Logo_Sono.png" alt="La Sono Lille" style="height:2em;"
+                        class="last-three"></a>
             </div>
             <div class="col-lg-1 col-md-6 col-12" style="text-align: center">
-            <img src="assets/images/partenaires/Logo_Ab_Live.png" alt="AbLive" style="height:3em;" class="last-three">
+                <img src="assets/images/partenaires/Logo_Ab_Live.png" alt="AbLive" style="height:3em;"
+                    class="last-three">
             </div>
-            </div>
+        </div>
         </div>
     </section>
     <!-- Start Footer Area -->
