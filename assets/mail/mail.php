@@ -19,8 +19,8 @@ if (!empty($_POST)) {
 }
 
 //Envoi de l'email
-sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "contrevent4thewin", $name, $emailContact, $phone, $message, $mailTo);
-//sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
+//sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", $name, $emailContact, $phone, $message, $mailTo);
+sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
 //sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", "test", "test", "test", "test", "bastien.pery@gmail.com");
 
 function sendMail($smtpHost, $smtpPort, $smtpUsername, $smptPass, $name, $emailContact, $phone, $message, $mailTo)
