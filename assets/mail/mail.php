@@ -5,7 +5,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require '../../vendor/autoload.php';
+require '../../PHPMailer/src/PHPMailer.php';
+require '../../PHPMailer/src/SMTP.php';
+require '../../PHPMailer/src/Exception.php';
 
 // Get Data 
 if (!empty($_POST)) {
@@ -17,8 +19,8 @@ if (!empty($_POST)) {
 }
 
 //Envoi de l'email
-//sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", $name, $emailContact, $phone, $message, $mailTo);
-sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
+sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "contrevent4thewin", $name, $emailContact, $phone, $message, $mailTo);
+//sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
 //sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", "test", "test", "test", "test", "bastien.pery@gmail.com");
 
 function sendMail($smtpHost, $smtpPort, $smtpUsername, $smptPass, $name, $emailContact, $phone, $message, $mailTo)
