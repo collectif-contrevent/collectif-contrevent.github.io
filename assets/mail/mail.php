@@ -11,7 +11,6 @@ require '../../vendor/autoload.php';
 function sendMail($smtpHost, $smtpPort, $smtpUsername, $smptPass, $name, $emailContact, $phone, $message, $mailTo)
 {
 
-
     $fp = fopen("emailTemplate.html", 'rb');
 
     $emailTemplate = fread($fp, 100024);
@@ -79,7 +78,7 @@ if (!empty($_POST)) {
     $mailTo = strip_tags($_POST['mailTo']);
 }
 
-sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", $name, $emailContact, $phone, $message, $mailTo);
-
+sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
+header("Location: emailSent.html");
 
 ?>
