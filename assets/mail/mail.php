@@ -7,16 +7,30 @@ use PHPMailer\PHPMailer\Exception;
 
 require '../../vendor/autoload.php';
 
-// Send Message
+// Get Data 
+if (!empty($_POST)) {
+    $name = strip_tags($_POST['name']);
+    $emailContact = strip_tags($_POST['emailContact']);
+    $phone = strip_tags($_POST['phone']);
+    $message = strip_tags($_POST['message']);
+    $mailTo = strip_tags($_POST['mailTo']);
+}
+
+//Envoi de l'email
+//sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", $name, $emailContact, $phone, $message, $mailTo);
+sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
+//sendMail("mail.collectif-contrevent.fr", 465, "contact@collectif-contrevent.fr", "password", "test", "test", "test", "test", "bastien.pery@gmail.com");
+
 function sendMail($smtpHost, $smtpPort, $smtpUsername, $smptPass, $name, $emailContact, $phone, $message, $mailTo)
 {
-
+    //Charge l'email
     $fp = fopen("emailTemplate.html", 'rb');
 
     $emailTemplate = fread($fp, 100024);
 
     fclose($fp);
 
+    //Ajoute dans l'email les éléments provenants du formulaire
     $emailTemplate = str_replace("__NAME__", $name, $emailTemplate);
     $emailTemplate = str_replace("__EMAIL_CONTACT__", $emailContact, $emailTemplate);
     $emailTemplate = str_replace("__MESSAGE__", $message, $emailTemplate);
@@ -42,7 +56,7 @@ function sendMail($smtpHost, $smtpPort, $smtpUsername, $smptPass, $name, $emailC
         $mail->Password = $smptPass;
 
         // Expéditeur
-        $mail->setFrom('noreply@collectif-contrevent.fr', 'Contact site');
+        $mail->setFrom('noreply@collectif-contrevent.fr', 'Contact Form Submission');
         // Destinataire dont le nom peut également être indiqué en option
         $mail->addAddress($mailTo, 'nom');
         // Copie
@@ -57,28 +71,34 @@ function sendMail($smtpHost, $smtpPort, $smtpUsername, $smptPass, $name, $emailC
         $mail->Body = $emailTemplate;
         //$mail->AltBody = 'Le texte comme simple élément textuel';
         // Ajouter une pièce jointe
-        $mail->addAttachment("../../assets/images/logo/logo-02.jpg", "logo.jpg");
-        $mail->addAttachment("../../assets/images/logo/collectif.png", "collectif.png");
+        //$mail->addAttachment("../../assets/images/logo/logo-02.jpg", "logo.jpg");
+        //$mail->addAttachment("../../assets/images/logo/collectif.png", "collectif.png");
 
         $mail->CharSet = 'UTF-8';
         $mail->Encoding = 'base64';
         $mail->send();
 
+        //Redirection vers emailSent.html après envoi de l'email
+        header("Location:emailSent.html");
+
     } catch (Exception $e) {
-        echo "Mailer Error: " . $e->getMessage();
+        //Inscrit les erreurs d'envoi dans le fichier mailErrorLog.txt
+        logMail("Mailer Error: " . $e->getMessage());
+
+        //Redirection vers emailFail.html après envoi de l'email
+        header("Location:emailFail.html");
     }
 }
 
-// Get Data 
-if (!empty($_POST)) {
-    $name = strip_tags($_POST['name']);
-    $emailContact = strip_tags($_POST['emailContact']);
-    $phone = strip_tags($_POST['phone']);
-    $message = strip_tags($_POST['message']);
-    $mailTo = strip_tags($_POST['mailTo']);
+//Inscrit les erreurs d'envoi dans le fichier mailErrorLog.txt
+function logMail($errorMessage)
+{
+    $pathLog = 'mailErrorLog.txt';
+    $logContent = file_get_contents($pathLog);
+    $logContent .= date('d-m-Y H:i:s');
+    $logContent .= "\t";
+    $logContent .= $errorMessage;
+    $logContent .= "\n\n";
+    file_put_contents($pathLog, $logContent);
 }
-
-sendMail("localhost", 1025, "", "", $name, $emailContact, $phone, $message, $mailTo);
-header("Location: emailSent.html");
-
 ?>
