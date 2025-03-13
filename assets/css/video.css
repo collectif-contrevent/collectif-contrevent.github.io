@@ -1,8 +1,4 @@
 /*===== VIDEO ONE =====*/
-/* .video-one {
-    padding-top: 120px;
-    padding-bottom: 100px;
-} */
 
 .video-one .video-title h5 {
     font-weight: 600;
@@ -22,7 +18,6 @@
 
 .video-one .video-content {
     position: relative;
-    margin-top: 60px;
     border-radius: 8px;
     overflow: hidden;
 }
