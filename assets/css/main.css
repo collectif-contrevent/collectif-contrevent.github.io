@@ -2649,7 +2649,7 @@ ol {
   left: 0;
   top: 0;
   content: '';
-  background: url(../images/count-down/left-shape.png) no-repeat;
+  background: url("../images/count-down/left-shape.png") no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -2662,7 +2662,7 @@ ol {
   right: 0;
   top: 0;
   content: '';
-  background: url(../images/count-down/right-shape.png) no-repeat;
+  background: url("../images/count-down/right-shape.png") no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
