@@ -200,6 +200,14 @@
     margin-top: -50px;
 }
 
+#sliderHomePage{
+    margin-top: 80px;
+}
+
+.slider-three #sliderHomePage .slider-items-wrapper .tns-nav button{
+    background-color: #fff;
+}
+
 .slider-three .slider-items-wrapper .tns-nav {
     width: 100%;
     z-index: 2;

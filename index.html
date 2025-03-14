@@ -257,10 +257,10 @@
     </section>
     <!-- /End Features Area -->
     <section class="features section"
-        style="background-color:#104634; padding-top: 10px; padding-bottom: 10px; vertical-align : center">
+        style="background-color:#104634; padding-top: 30px; padding-bottom: 70px; vertical-align : center">
         <div class="col-12">
             <div class="section-title" style="color:white">
-                <p class="wow fadeInUp" data-wow-delay=".6s" style="padding-top:30px; padding-bottom:0px">A
+                <p class="wow fadeInUp" data-wow-delay=".6s">A
                     l’échelle de
                     l’ensemble du festival, l’objectif transversal sera, en accord avec ses valeurs, de
                     <b>minimiser son
@@ -268,6 +268,109 @@
                 </p>
             </div>
         </div>
+        <!-- Slider 1 -->
+        <section class="slider-three">
+            <div class="container" id="sliderHomePage">
+                <!-- row -->
+
+                <div class="slider-items-wrapper">
+                    <div class="row slider-items-active">
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_1.JPG" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_2.png" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_3.jpg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_4.jpg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_5.JPG" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_6.png" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_7.jpg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_8.jpg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2024/2024_9.JPG" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2023/2023_1.JPG" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2023/2023_2.jpeg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2023/2023_3.JPG" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2023/2023_4.jpeg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2023/2023_5.jpeg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-items-one">
+                                <img src="assets/photos/vents contraires 2023/2023_6.jpeg" alt="Image" />
+                            </div>
+                            <!-- single-items-one -->
+                        </div>
+                    </div>
+                    <!-- row -->
+                </div>
+            </div>
+            <!-- container -->
+        </section>
     </section>
     <!-- /End Features Area -->
 
@@ -1288,6 +1391,37 @@
     <script src="assets/js/main.js"></script>
     <script>
         //========= glightbox
+        //======== tiny slider for slider-items-active
+        const slider1 = tns({
+
+            autoplay: true,
+            autoplayButtonOutput: false,
+            mouseDrag: true,
+            gutter: 0,
+            container: ".slider-items-active",
+            center: false,
+            nav: true,
+            navPosition: "bottom",
+            controls: false,
+            speed: 800,
+            controlsText: [
+                '<i class="lni lni-arrow-left-circle" style="background-color: #ffff;"></i>',
+                '<i class="lni lni-arrow-right-circle" style="background-color: #ffff;"></i>',
+            ],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+
+                768: {
+                    items: 2,
+                },
+                992: {
+                    items: 3,
+                },
+
+            }
+        });
         GLightbox({
             'href': 'https://www.youtube.com/watch?v=D3XtaxxqooU',
             'type': 'video',
@@ -1296,35 +1430,6 @@
             'autoplayVideos': true,
         });
 
-        //========= testimonial 
-        tns({
-            container: '.testimonial-slider',
-            items: 3,
-            slideBy: 'page',
-            autoplay: false,
-            mouseDrag: true,
-            gutter: 0,
-            nav: true,
-            controls: false,
-            controlsText: ['<i class="lni lni-arrow-left"></i>', '<i class="lni lni-arrow-right"></i>'],
-            responsive: {
-                0: {
-                    items: 1,
-                },
-                540: {
-                    items: 1,
-                },
-                768: {
-                    items: 2,
-                },
-                992: {
-                    items: 2,
-                },
-                1170: {
-                    items: 3,
-                }
-            }
-        });
     </script>
     <script>
         const finaleDate = new Date("September 19, 2025 17:00:00").getTime();
