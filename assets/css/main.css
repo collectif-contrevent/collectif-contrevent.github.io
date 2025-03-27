@@ -2619,7 +2619,7 @@ ol {
 .count-down .box-content {
   text-align: center;
   background-color: #104634;
-  background-image: url("../images/count-down/Compte_a_rebours_site_Vents_Contraires_Transparent_V05.png");
+  background-image: url("../images/count-down/Compte_a_rebours_site_Vents_Contraires_Transparent_V05.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2648,7 +2648,7 @@ ol {
   left: 0;
   top: 0;
   content: '';
-  background: url("../images/count-down/left-shape.png") no-repeat;
+  background: url("../images/count-down/left-shape.webp") no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -2661,7 +2661,7 @@ ol {
   right: 0;
   top: 0;
   content: '';
-  background: url("../images/count-down/right-shape.png") no-repeat;
+  background: url("../images/count-down/right-shape.webp") no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -2858,7 +2858,7 @@ ol {
   font-size: 30px;
   -webkit-box-shadow: 0px 10px 30px rgba(48, 128, 227, 0.18);
   box-shadow: 0px 10px 30px rgba(48, 128, 227, 0.18);
-  background-image: url("../images/count-down/bg.png");
+  background-image: url("../images/count-down/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3160,7 +3160,7 @@ ol {
     Call To Action CSS
 ========================================*/
 .call-action {
-  background-image: url("../images/call-action/call-bg.jpg");
+  background-image: url("../images/call-action/call-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
