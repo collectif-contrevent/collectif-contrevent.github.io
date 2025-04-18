@@ -118,7 +118,7 @@ h5,
 h6 {
   font-weight: 600;
   margin: 0px;
-  color: #104634;
+  color: #1594af;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -907,7 +907,7 @@ ol {
   padding-bottom: 100px;
   z-index: 2;
   text-align: center;
-  background-image: url("../images/hero/Banniere_site_Vents_Contraires_V05.webp");
+  background-image: url("../images/hero/banniere_2025.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -935,6 +935,7 @@ ol {
 .breadcrumbs .breadcrumbs-content .page-title {
   font-size: 38px;
   color: #fff;
+  text-shadow: 2px 0 #9e1818, -2px 0 #9e1818, 0 2px #9e1818, 0 -2px #9e1818, 1px 1px #9e1818, -1px -1px #9e1818, 1px -1px #9e1818, -1px 1px #9e1818;
   font-weight: 700;
   position: relative;
   line-height: 28px;
@@ -1203,7 +1204,7 @@ ol {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #46ABA7;
+  background: #43c3c1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1359,7 +1360,7 @@ ol {
   font-size: 15px;
   font-weight: 500;
   padding: 15px 30px;
-  background-color: #F27978;
+  background-color: #43c3c1;
   color: #fff;
   border: none;
   -webkit-transition: all 0.3s ease;
@@ -1868,7 +1869,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   top: 0;
-  background-color: #104634;
+  background-color: #9e1818;
 }
 
 .sticky-web {
@@ -1879,7 +1880,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   top: 0;
-  background-color: #104634;
+  background-color: #9e1818;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -2267,7 +2268,7 @@ ol {
   background-color: #101130;
   padding: 200px 0 150px 0;
   padding-bottom: 200px;
-  background-image: url("../images/hero/Banniere_site_Vents_Contraires_V05.webp");
+  background-image: url("../images/hero/banniere_2025.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2618,8 +2619,8 @@ ol {
 
 .count-down .box-content {
   text-align: center;
-  background-color: #104634;
-  background-image: url("../images/count-down/Compte_a_rebours_site_Vents_Contraires_Transparent_V05.webp");
+  background-color: #9e1818;
+  background-image: url("../images/count-down/Compte_a_rebours-copy-Photoroom.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2730,6 +2731,8 @@ ol {
   font-size: 42px;
   font-weight: 700;
   color: #fff;
+  text-shadow: 2px 0 #9e1818, -2px 0 #9e1818, 0 2px #9e1818, 0 -2px #9e1818,
+    1px 1px #9e1818, -1px -1px #9e1818, 1px -1px #9e1818, -1px 1px #9e1818;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2751,6 +2754,8 @@ ol {
   display: block;
   margin-top: 5px;
   color: #fff;
+  text-shadow: 2px 0 #9e1818, -2px 0 #9e1818, 0 2px #9e1818, 0 -2px #9e1818,
+    1px 1px #9e1818, -1px -1px #9e1818, 1px -1px #9e1818, -1px 1px #9e1818;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2851,7 +2856,7 @@ ol {
   line-height: 65px;
   border-radius: 8px;
   color: #fff;
-  background-color: #46ABA7;
+  background-color: #43c3c1;
   text-align: center;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -2882,7 +2887,7 @@ ol {
 }
 
 .single-featuer a {
-  color: #027A7B;
+  color: #1594af;
   margin-top: 40px;
   display: inline-block;
   font-weight: 500;
@@ -3233,7 +3238,7 @@ ol {
 }
 
 .call-action.overlay::before {
-  background: linear-gradient(45deg, #46ABA7, #F9D058);
+  background: linear-gradient(90deg, rgba(67, 195, 193, 1) 0%, rgba(252, 181, 176, 1) 53%, rgba(252, 202, 134, 1) 100%);
   opacity: 0.9;
 }
 
@@ -3420,7 +3425,7 @@ only screen and (min-width: 1400px) {
   display: block;
   border-radius: 4px;
   color: #fff;
-  background-color: #46ABA7;
+  background-color: #43c3c1;
   font-size: 14px;
 }
 
@@ -3481,7 +3486,7 @@ only screen and (min-width: 1400px) {
   font-weight: 600;
   display: block;
   margin-bottom: 35px;
-  color: #104634;
+  color: #1594af;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3574,7 +3579,7 @@ only screen and (min-width: 1400px) {
 }
 
 .footer .copyright .copyright-text a {
-  color: #027A7B;
+  color: #1594af;
 }
 
 .footer .copyright .copyright-text a:hover {
@@ -3683,7 +3688,7 @@ only screen and (min-width: 1400px) {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   content: "";
-  border: 10px solid #FFA032;
+  border: 10px solid #e24949;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -3699,7 +3704,7 @@ only screen and (min-width: 1400px) {
 }
 
 .events-schedule .nav .nav-item .nav-link:hover {
-  background-color: #F27978;
+  background-color: #f9aaa5;
   color: #fff;
 }
 
@@ -3713,7 +3718,7 @@ only screen and (min-width: 1400px) {
 }
 
 .events-schedule .nav .nav-item .nav-link.active {
-  background-color: #F27978;
+  background-color: #f9aaa5;
   color: #fff;
 }
 
@@ -3897,46 +3902,8 @@ only screen and (min-width: 1400px) {
 /*=============================
 	Sponsors CSS
 ===============================*/
-.sponsors {
-  text-align: center;
-}
-
-.sponsors .section-title {
-  margin-bottom: 70px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .sponsors .section-title {
-    margin-bottom: 50px;
-  }
-}
-
-@media (max-width: 767px) {
-  .sponsors .section-title {
-    margin-bottom: 40px;
-  }
-}
-
-.sponsors .single-sponsor {
-  padding: 20px 30px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.103);
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.103);
-  border: 1px solid #eee;
-  margin: 12px 10px;
-  line-height: 50px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  background-color: #fff;
-}
-
-.sponsors .single-sponsor:hover {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-.sponsors .single-sponsor img {
-  width: 150px;
+.sponsors-bar {
+  background-color: #9e1818;
 }
 
 @media (max-width: 767px) {

@@ -22,6 +22,17 @@
     overflow: hidden;
 }
 
+.video-one .btn {
+    background-color: #43c3c1;
+    border-color: #198754;
+    color: #fff;
+}
+
+.video-one .btn:hover {
+    color: #fff;
+    background-color: #1594af;
+}
+
 .video-one .video-content img {
     border-radius: 8px;
 }
