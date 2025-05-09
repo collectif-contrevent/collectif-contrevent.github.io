@@ -935,7 +935,8 @@ ol {
 .breadcrumbs .breadcrumbs-content .page-title {
   font-size: 38px;
   color: #fff;
-  text-shadow: 2px 0 #9e1818, -2px 0 #9e1818, 0 2px #9e1818, 0 -2px #9e1818, 1px 1px #9e1818, -1px -1px #9e1818, 1px -1px #9e1818, -1px 1px #9e1818;
+  text-shadow: 2px 0 #9e1818, -2px 0 #9e1818, 0 2px #9e1818, 0 -2px #9e1818, 2px 2px #9e1818, -2px -2px #9e1818, 2px -2px #9e1818, -2px 2px #9e1818;
+  font-family: "ananda";
   font-weight: 700;
   position: relative;
   line-height: 28px;
@@ -2406,7 +2407,7 @@ ol {
 }
 
 .hero-area .hero-content .button .btn {
-  background-color: #F9D058;
+  background-color: #43c3c1;
   color: #fff;
 }
 

@@ -1,4 +1,7 @@
 /*===== VIDEO ONE =====*/
+.video-area{
+    margin-top: 70px;
+}
 
 .video-one .video-title h5 {
     font-weight: 600;
