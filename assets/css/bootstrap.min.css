@@ -6033,6 +6033,32 @@ fieldset:disabled .btn {
     border-bottom-left-radius: calc(.3rem - 1px)
 }
 
+/*------------------------
+	Customization
+-------------------------*/
+.modal-body .lni {
+    color: #43c3c1;
+}
+
+.modal-body .lni:hover {
+    color: #F9D058;
+}
+
+
+.modal-footer .btn {
+    background-color: #43c3c1;
+    border-color: #43c3c1;
+}
+
+.modal-footer .btn:hover {
+    background-color: #F9D058;
+    border-color: #F9D058;
+}
+
+/*------------------------
+	End Customization
+-------------------------*/
+
 .modal-footer>* {
     margin: .25rem
 }
