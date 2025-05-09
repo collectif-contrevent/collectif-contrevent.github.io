@@ -991,7 +991,6 @@ ol {
 
 .breadcrumbs .breadcrumb-nav li:after {
   content: "\ea62";
-  font-family: lineIcons;
   font-size: 11px;
   position: absolute;
   top: 3px;
@@ -2056,7 +2055,7 @@ ol {
 
 .navbar-nav .nav-item a.dd-menu::after {
   content: "\ea5e";
-  font: normal normal normal 1em/1 "LineIcons";
+  font: normal normal normal 1em/1 "Roboto";
   position: absolute;
   right: 17px;
   font-size: 10px;
@@ -3130,7 +3129,6 @@ ol {
   left: 0;
   top: 0;
   content: "\ea5a";
-  font-family: lineIcons;
   color: #68D585;
   font-size: 15px;
 }
