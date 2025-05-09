@@ -3239,7 +3239,7 @@ ol {
 }
 
 .call-action.overlay::before {
-  background: linear-gradient(90deg, rgba(67, 195, 193, 1) 0%, rgba(252, 181, 176, 1) 53%, rgba(252, 202, 134, 1) 100%);
+  background: radial-gradient(circle,rgba(252, 202, 134, 1) 0%, rgba(250, 198, 194, 1) 53%, rgba(249, 163, 60, 1) 100%);
   opacity: 0.9;
 }
 
