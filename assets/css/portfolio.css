@@ -4,7 +4,7 @@
   padding-bottom: 80px;
 }
 .portfolio-one .portfolio-menu{
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .portfolio-one .portfolio-menu button {
   border: none;
@@ -26,7 +26,7 @@
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   cursor: pointer;
-  margin-right: 30px;
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 .portfolio-one .portfolio-menu button:last-child {
@@ -110,10 +110,11 @@
 .portfolio-style-one .portfolio-icon {
   position: relative;
   display: inline-block;
+  vertical-align: middle;
 }
 .portfolio-style-one .portfolio-icon a {
-  font-size: 30px;
-  color: var(--white);
+  font-size: 50px;
+  color: #fff;
   position: relative;
   z-index: 5;
   line-height: 90px;
@@ -130,8 +131,8 @@
   transition: all 0.3s ease-out 0s;
 }
 .portfolio-style-one .portfolio-icon a:hover {
-  background-color: var(--white);
-  color: var(--primary);
+  color: #fff;
+  font-size: 60px;
   border-color: transparent;
 }
 .portfolio-style-one .portfolio-text {
