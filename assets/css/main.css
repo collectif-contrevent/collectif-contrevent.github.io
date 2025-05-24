@@ -1618,7 +1618,7 @@ ol {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
     padding: 18px 0 !important;
   }
@@ -1749,7 +1749,6 @@ ol {
     top: 62px !important;
     left: 0;
     width: 100%;
-    color:#9e1818;
     background-color: #fff;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -1867,7 +1866,7 @@ ol {
 
 @media (max-width: 767px) {
   .header .navbar-brand img {
-    width: 170px;
+    width: 180px;
   }
 }
 
@@ -2075,6 +2074,12 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   height: 10px;
+}
+
+@media only screen and (min-width: 1400px){
+  .navbar-nav {
+    margin-left: 90px !important; 
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
