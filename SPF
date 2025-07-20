@@ -1,0 +1,1 @@
+v=spf1 include:_spf.mailersend.net +a +mx +ip4:141.94.98.98 ~all
