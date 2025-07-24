@@ -2076,12 +2076,6 @@ ol {
   height: 10px;
 }
 
-@media only screen and (min-width: 1400px){
-  .navbar-nav {
-    margin-left: 90px !important; 
-  }
-}
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav .nav-item a.dd-menu::after {
     right: 13px;
@@ -3316,8 +3310,8 @@ ol {
 }
 
 .call-action .button .btn {
-  background-color: #fff;
-  color: #101130;
+  background-color: #43c3c1;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

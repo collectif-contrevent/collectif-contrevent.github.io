@@ -4446,7 +4446,7 @@ fieldset:disabled .btn {
 .navbar-brand {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-right: 1rem;
+    margin-right: 0 !important;
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap
@@ -4645,7 +4645,8 @@ fieldset:disabled .btn {
 
     .navbar-expand-xl .navbar-collapse {
         display: flex !important;
-        flex-basis: auto
+        flex-basis: auto;
+        justify-content: center !important;
     }
 
     .navbar-expand-xl .navbar-toggler {
